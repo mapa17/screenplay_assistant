@@ -1,3 +1,5 @@
+# Input data
+data_preprocessing/data/*
 # Logs
 logs
 *.log
