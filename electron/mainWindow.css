@@ -1,63 +1,18 @@
 h1 {
-    color: red;
+    color: rgb(54, 97, 205);
 }
 
-li {
-    color: rgba(140, 189, 27, 0.472);
+.jumbotron {
+    background-color: rgb(195, 201, 211);
 }
 
-/*
-table {
-    background: url("https://i.ytimg.com/vi/YbeedPjQ300/maxresdefault.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
-}
-*/
-
-#special {
-    background-color: rgba(119, 119, 235, 0.685);
+.text-shadow{
+    text-shadow: 0em 0.1em 0.2em rgba(0, 0, 0, 0.4),
+                0em 0.2em 0.3em rgba(0, 0, 0, 0.1),
+                0em 0.5em 0.6em rgba(0, 0, 0, 0.1);
 }
 
-.myclas {
-    text-decoration: line-through ;
-}
-
-div {
-    /* Define size */
-    width: 500px;
-    height: 100%;
-
-    /* Space to and sorounding the border */
-    padding: 10px;
-    padding-left: 100px;
-    margin: 50px;
-    /* top right bottom left */
-    margin: 10px 20px 20px 10px;
-    /* fill the remaining with auto */
-    margin: 10px auto 20px 10px;
-
-    border: 3px solid red;
-}
-
-#ttt td {
-    border: 3px solid blue;
-    width: 100px;
-    height: 100px;
-}
-
-#ttt tr {
-    /*border: 3px solid blue;*/
-}
-
-#fotogrid{
-    width: 80%;
-    padding: 0px;
-}
-
-#fotogrid img{
-    width: 30%;
-    height: 100%;
-    float: left;
-    margin: 1.5%;
+#genreSelection{
+    min-width: 500;
+    max-width: 700;
 }

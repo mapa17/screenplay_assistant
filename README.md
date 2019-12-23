@@ -1,2 +1,2 @@
-# screenplay_assistant
+# screenwriters delight
 A keyword and character generation tool for screenplay writers

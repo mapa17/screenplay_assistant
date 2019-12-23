@@ -2,14 +2,16 @@
   "name": "screenplay_assistant",
   "version": "0.0.1",
   "description": "A keyword and character generation tool for screenplay writers",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Manuel Pasieka",
   "license": "MIT",
   "dependencies": {
-    "electron": "^7.1.5"
+    "electron": "^7.1.5",
+    "jquery": "^3.4.1"
   },
   "devDependencies": {
     "eslint": "^6.7.2",
