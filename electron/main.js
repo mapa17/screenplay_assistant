@@ -8,12 +8,12 @@ const fs = require('fs');
 //process.env.NODE_ENV = 'development';
 
 const isMac = process.platform === 'darwin'
-const isDev = process.env.NODE_ENV !== 'production'
+function isDev() {
+  return process.argv[2] == '--dev';
+}
 
 // Load MOVIE Database
-//const MOVIE_DB_PATH = isDev ? path.join(__dirname, 'mvdb.json') : path.join(process.resourcesPath, 'mvdb.json');
-const MOVIE_DB_PATH = path.join(process.resourcesPath, 'mvdb.json');
-//const MOVIE_DB_PATH = path.join(__dirname, 'mvdb.json');
+const MOVIE_DB_PATH = isDev() ? path.join(__dirname, 'mvdb.json') : path.join(process.resourcesPath, 'mvdb.json');
 
 const {app, BrowserWindow, Menu, ipcMain} = electron;
 
