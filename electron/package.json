@@ -25,7 +25,7 @@
     "win": { "target": ["portable", "NSIS"]
     },
     "directories": {
-      "output": "release"
+      "output": "release-build"
     }
   },
   "devDependencies": {
