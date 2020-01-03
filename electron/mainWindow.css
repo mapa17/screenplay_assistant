@@ -16,3 +16,41 @@ h1 {
     min-width: 500;
     max-width: 700;
 }
+
+@font-face {
+    font-family: 'Mountains of Christmas', cursive;
+    src: url("./resources/Mountains_of_Christmas/MountainsofChristmas-Bold.ttf"), format('truetype');
+}
+
+@font-face{
+    font-family: 'Roboto Slab', serif;
+    src: url("resources/Roboto_Slab/RobotoSlab-VariableFont:wght.ttf");
+}
+
+
+.selectionType{
+    text-align: center;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+}
+
+#AllysSpecial{
+    font-family: 'Mountains of Christmas';
+    color:  white;
+}
+
+.subtitle{
+    font-size: 26px;
+}
+
+.jumbotron{
+    background-image: url("resources/christmas-banner.png");
+    background-size: contain;
+    background-repeat: repeat;
+
+    background-color: rgb(194, 57, 57);
+}
